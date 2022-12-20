@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etsy Website</title>
+    <link rel="Stylesheet" href="Etsy.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Header of the page-->
+    <header class="header" role="banner">
+            <div class="etsy-icon"><strong>Etsy</strong></div>
+                    <div class="search">
+                        <input type="text" name="Search-tab" placeholder="Search" class="search-bar">
+                        <button type="submit" class="search-button">
+                            <i class="fa-sharp fa-solid fa-magnifying-glass fa-xl" ></i>
+                        </button>
+                    </div>
+            <div class="symbol">
+                <span id="sign-in">
+                    <button type="button" value="sign_in"><b>sign in</b></button>
+                </span>
+                <span id="favourite-symbol">
+                    <!-- <a href="https://www.etsy.com/in-en/guest/favorites?ref=hdr-fav"> -->
+                        <i class="fa-regular fa-heart fa-xl" title="Favourite"></i>
+                    </a>
+                </span>
+                <span id="cart">
+                    <!-- <a href="https://www.etsy.com/in-en/cart?ref=hdr-cart"> -->
+                        <i class="fa-sharp fa-solid fa-cart-shopping fa-xl" title="Cart"></i>
+                    </a>
+                </span>
+            </div>
+    </header>
+    
+    <!-- navigation bar of categories -->
+    <nav>
+        <ul class="nav-bar">
+            <li class="effect"><a href="#" class="list">Sellers's Sales Hub</a></li>
+            <li><a href="#" class="list">Jewellery & Accessories</a></li>
+            <li><a href="#" class="list">Clothing & Shoes</a></li>
+            <li><a href="#" class="list">Home & Living</a></li>
+            <li><a href="#" class="list">Wedding & Party</a></li>
+            <li><a href="#" class="list">Toys & Entertainment</a></li>
+            <li><a href="#" class="list">Art & Collectibles</a></li>
+            <li><a href="#" class="list">Craft Supplies</a></li>
+            <li><a href="#" class="list"><i class="fa-sharp fa-solid fa-gift fa-sm"></i>Gifts</a></li>
+        </ul>
+    </nav>
+
+    <!-- Discovering items according to category-->
+    <div class="Section2">
+           
+        <h2>Discover one-of-a-kind items from independent creators</h2>
+            
+            <div class="Image-container">
+                    <div>
+                        <a href="#"><img src="https://i.etsystatic.com/17600118/c/1000/1000/0/119/il/d077de/2325460652/il_300x300.2325460652_lhfz.jpg" id="img1" class="Image-setting"></a>
+                        <div class="Styling" style="margin-left: 31px;"><p>Wedding</p></div>
+                    </div>
+                    <div>
+                        <a href="#"><img src="https://i.etsystatic.com/18077312/r/il/b10e09/2350226444/il_300x300.2350226444_odar.jpg" id="img2"></a>
+                        <div class="Styling" style="margin-left: -4px;"><p>Jewellery</p></div>
+                    </div>
+                    <div>
+                        <a href="#"><img src="https://i.etsystatic.com/32501528/c/1518/1518/253/562/il/4bdfa0/3702738409/il_300x300.3702738409_qfmi.jpg" id="img3"></a>
+                        <div class="Styling" style="margin-left: -15px;"><p>Clothing</p></div>
+                    </div>
+                    <div>
+                        <a href="#"><img src="https://i.etsystatic.com/16676438/c/2002/2002/449/0/il/89ea5d/1467855817/il_300x300.1467855817_ksv4.jpg" id="img4"></a>
+                        <div class="Styling" style="margin-left: -35px;"><p>Home&Living</p></div>
+                    </div>
+                    <div>
+                        <a href="#"><img src="https://i.etsystatic.com/30725321/r/il/a22d35/4016941798/il_300x300.4016941798_bruv.jpg" id="img5"></a>
+                        <div class="Styling" style="margin-left: -40px;"><p>Wall Art</p></div>
+                    </div>
+                    <div>
+                        <a href="#"><img src="https://i.etsystatic.com/21689103/c/1896/1896/664/0/il/4aad15/3549482360/il_300x300.3549482360_62rn.jpg" id="img6"></a>
+                        <div class="Styling" style="margin-left: -60px;"><p>Kitchen&Dinning</p></div>
+                    </div>
+          </div>   
+    </div>
+
+    <!-- deals -->
+    <div class="Section3">
+            
+        <div class="container1">
+                    
+                <h1>Deals of the day</h1>
+                <a href="#" class="text-editing" id="custom">shop all deals<i class="fa-solid fa-arrow-right fa-xs"></i></a>
+            </div>
+
+        <div class="container2">
+                <div class="deal1">
+                    <div>
+                        <img src="https://i.etsystatic.com/37377693/c/828/828/0/0/il/a5e245/4217575210/il_300x300.4217575210_6ohs.jpg" class="deal-image">    
+                    </div>
+                    <a href="#" class="text-editing">
+                        <p>Up to 40% off</p>
+                        <p>Women's Ethnic Clothing</p>
+                    </a>
+                </div>
+                <div class="deal1">
+                    <div >
+                        <img src="https://i.etsystatic.com/18817198/c/983/983/190/295/il/0a9587/1917580631/il_300x300.1917580631_231h.jpg" class="deal-image">    
+                    </div>
+                    <a href="#" class="text-editing">
+                        <p>Up to 40% off</p>
+                        <p>Women's Western Clothing</p>
+                    </a>
+                </div>
+                <div class="deal1">
+                    <div >
+                        <img src="https://i.etsystatic.com/25566015/c/2003/2003/0/274/il/5b71e2/3196479462/il_300x300.3196479462_20xh.jpg" class="deal-image">    
+                    </div>
+                    <a href="#" class="text-editing">
+                        <p>Up to 40% off</p>
+                        <p>Men's Clothing</p>
+                    </a>
+                </div>
+                <div class="deal1">
+                    <div >
+                        <img src="https://i.etsystatic.com/12917913/r/il/7ef5de/4396673299/il_300x300.4396673299_bkgg.jpg" class="deal-image">    
+                    </div>
+                    <a href="#" class="text-editing">
+                        <p>Up to 40% off</p>
+                        <p>Fashion Jewellery</p>
+                    </a>
+                </div>
+                <div class="deal1">
+                    <div >
+                        <img src="https://i.etsystatic.com/31853835/c/2000/2000/0/477/il/e65090/4140862917/il_300x300.4140862917_mh60.jpg" class="deal-image">    
+                    </div>
+                    <a href="#" class="text-editing">
+                        <p>Up to 40% off</p>
+                        <p>Winter Clothing</p>
+                    </a>
+                </div>
+                <div class="deal1">
+                    <div >
+                        <img src="https://i.etsystatic.com/27315676/c/700/700/0/56/il/2c32a4/4177681204/il_300x300.4177681204_ktos.jpg" class="deal-image">    
+                    </div>
+                    <a href="#" class="text-editing">
+                        <p>Up to 40% off</p>
+                        <p>Wedding Clothing</p>
+                    </a>
+                </div>
+          </div>
+    </div>
+
+    <!-- footer of the page -->
+<footer>
+    <div class="last-section">
+        <div class="part-1">
+            <div>
+                <div class="heading">
+                    <h1 id="head">What is Etsy?</h1>
+                    <a href="#" class="style-text">Read our wonderfully weird story</a>
+                </div>
+            </div>
+
+            <div class="inner-div">
+                <div class="inner-div-1">
+                        <h2> A community doing good </h2>
+                        <p> 
+                           Etsy is a global online marketplace, where people come together to make, sell, buy and collect unique items. We’re also a community pushing for positive change for small businesses, people, and the planet.
+                        </p>
+                        <div>
+                             <a href="#" id="T1">Here are some of the ways we’re making a positive impact, together.</a>
+                        </div>
+                </div>
+
+                <div class="inner-div-2">
+                    <h2>Support independent creators</h2>
+                    <p> There’s no Etsy warehouse – just millions of people selling the things they love. We make the whole process easy, helping you connect directly with makers to find something extraordinary. </p>
+                </div>
+
+                    <div class="inner-div-3">
+                            <h2> Peace of mind </h2>
+                            <p>Your privacy is the highest priority of our dedicated team. And if you ever need assistance, we are always ready to step in for support.</p>
+                    </div>
+                 </div>
+
+                <div class="inner-div-4">
+                        <h2> Have a question? Well, we’ve got some answers. </h2>
+                        <a href="#"><button id="button-foot">Go to help center</button></a>
+                </div>
+        </div>
+
+        <div class="part-2">
+            <div class="inner-part">
+                <div class="matter">
+                    <p>Yes! Send me exclusive offers, unique gift ideas, and personalised tips for shopping and selling on Etsy.</p>
+                </div>
+                <div class="footer-search-bar">
+                    <div>
+                        <form  class="search">
+                        <input type="text" placeholder="Enter your email" size="80" id="input-bar">
+                        <button type="submit" id="subscribe-button">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="part-3">
+            <div class="section">
+                <div  class="sect-1">
+                    <div>
+                        <h2>Shop</h2>
+                    </div>
+                    <div>
+                        <ul class="sect-box">
+                            <li>
+                                <a href="#" style="text-decoration: none;">
+                                    <span class="t-edit">Gift Cards</span>
+                                </a>
+                            </li><br>
+                            <li>
+                                <a href="#" style="text-decoration: none;">
+                                    <span class="t-edit">Sitemap</span>
+                                </a>
+                            </li><br>
+                            <li>
+                                <a href="#" style="text-decoration: none;">
+                                    <span class="t-edit">Etsy blog</span>
+                                </a>
+                            </li><br>
+                            <li>
+                                <a href="#" style="text-decoration: none;">
+                                    <span class="t-edit">Etsy United Kingdom</span>
+                                </a>
+                            </li><br>
+                            <li>
+                                <a href="#" style="text-decoration: none;">
+                                    <span class="t-edit">Etsy Germany</span>
+                                </a>
+                            </li><br>
+                            <li>
+                                <a href="#" style="text-decoration: none;">
+                                    <span class="t-edit">Etsy Canada</span>
+                                </a>
+                            </li><br>
+                        </ul>
+                    </div>   
+                </div>
+                
+                <div class="sect-2">
+                        <div>
+                            <h2>Sell</h2>
+                        </div>
+                        <div>
+                            <ul class="sect-box">
+                                <li>
+                                    <a href="#" style="text-decoration: none;">
+                                        <span class="t-edit">Sell on Etsy</span>
+                                    </a>
+                                </li><br>
+                                <li>
+                                    <a href="#" style="text-decoration: none;">
+                                        <span class="t-edit">Teams</span>
+                                    </a>
+                                </li><br>
+                                <li>
+                                    <a href="#" style="text-decoration: none;">
+                                        <span class="t-edit">Forums</span>
+                                    </a>
+                                </li><br>
+                                <li>
+                                    <a href="#" style="text-decoration: none;">
+                                        <span class="t-edit">Affiliates</span>
+                                    </a>
+                                </li><br>
+                            </ul>
+                        </div>
+               </div>
+
+               <div class="sect-3">
+                <div>
+                    <h2>About</h2>
+                </div>
+
+                <div>
+                    <ul class="sect-box">
+                        <li>
+                            <a href="#" style="text-decoration: none;">
+                                <span class="t-edit">Etsy, Inc.</span>
+                            </a>
+                        </li><br>
+                        <li>
+                            <a href="#" style="text-decoration: none;">
+                                <span class="t-edit">Policies</span>
+                            </a>
+                        </li><br>
+                        <li>
+                            <a href="#" style="text-decoration: none;">
+                                <span class="t-edit">Investors</span>
+                            </a>
+                        </li><br>
+                        <li>
+                            <a href="#" style="text-decoration: none;">
+                                <span class="t-edit">Careers</span>
+                            </a>
+                        </li><br>
+                        <li>
+                            <a href="#" style="text-decoration: none;">
+                                <span class="t-edit">Press</span>
+                            </a>
+                        </li><br>
+                        <li>
+                            <a href="#" style="text-decoration: none;">
+                                <span class="t-edit">Impact</span>
+                            </a>
+                        </li><br>
+                        <li>
+                            <a href="#" style="text-decoration: none;">
+                                <span class="t-edit">Legal imprint</span>
+                            </a>
+                        </li><br>
+                    </ul>
+                </div>
+               </div>
+
+               <div class="sect-4">
+                    <div>
+                        <h2>Help</h2>
+                    </div>
+
+                    <div>
+                        <ul class="sect-box">
+                            <li>
+                                <a href="#" style="text-decoration: none;">
+                                    <span class="t-edit">Help Centre</span>
+                                </a>
+                            </li><br>
+                            <li>
+                                <a href="#" style="text-decoration: none;">
+                                    <span class="t-edit">Privacy settings</span>
+                                </a>
+                            </li><br>
+                        </ul>
+                    </div>
+                    <div>
+                        <a href="#" class="download-button">
+                           <span style="font-size: medium;">Download the Etsy App</span>
+                        </a>
+
+                        <div>
+                        <ul class="app-list">
+                            <li>
+                                <a href="#"><i class="fa-brands fa-instagram fa-2xl" id="app1"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa-brands fa-square-facebook fa-2xl" id="app2"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa-brands fa-pinterest fa-2xl" id="app3"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa-brands fa-twitter fa-2xl" id="app4"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa-brands fa-youtube fa-2xl" id="app5"></i></a>
+                            </li>
+                        </ul>
+                        </div>
+                    </div>
+               </div>
+            </div>
+        </nav>
+
+        <div class="last-sect">
+            <div class="main-div">
+                <div class="div1">
+                    <a href="#" class="navigation">
+                        <span><i class="fa-solid fa-globe fa-xl" id="globe-icon"></i></span>
+                        <span>&nbsp; India &nbsp; | &nbsp; English (UK) &nbsp; |&nbsp; <i class="fa-solid fa-indian-rupee-sign fa-2xs" style="color: white;"></i>&nbsp;(INR)</span>
+                    </a>
+                </div>
+
+                <div class="div2">
+                    <div style="width: 85%;">
+                        <ul class="style-list">
+                            <li><a href="#" class="style-option">Terms of use</a></li>
+                            <li><a href="#" class="style-option">Privacy</a></li>
+                            <li><a href="#" class="style-option">Interest-based adds</a></li>
+                            <li><a href="#" class="style-option">Regions</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</footer>
+        
+</body>
+</html>
